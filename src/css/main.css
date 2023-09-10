@@ -1,0 +1,118 @@
+/* 페이지 헤더 스타일 */
+.main__header {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  margin-top: 1rem; /* 위쪽 여백 1rem */
+}
+
+/* 헤더 이미지 스타일 */
+.main__header img {
+  width: 300px; /* 이미지 너비 300px로 설정 */
+  cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능하게 함 */
+}
+
+/* 메인 본문 스타일 */
+.main__body {
+  display: flex;
+  width: 90%; /* 너비 90%로 설정 */
+  height: 70vh; /* 높이 70vh로 설정 (화면 높이의 70%) */
+  margin: 3rem auto; /* 가운데 정렬 및 위아래 여백 3rem */
+  justify-content: space-between; /* 가로 간격을 최대로 설정 */
+}
+
+/* 왼쪽 컨테이너 스타일 */
+.main__body .left {
+  width: 65%; /* 왼쪽 컨테이너 너비 65%로 설정 */
+  height: 100%; /* 높이 100% (부모 컨테이너에 맞춤) */
+
+  display: flex;
+  flex-direction: column; /* 세로로 요소 정렬 */
+  justify-content: space-between; /* 세로 간격을 최대로 설정 */
+}
+
+/* 왼쪽 컨테이너 내부 flex 박스 스타일 */
+.main__body .left .flex-box {
+  display: flex;
+  justify-content: space-between; /* 가로 간격을 최대로 설정 */
+
+  height: 80%; /* 높이 80%로 설정 */
+}
+
+/* 왼쪽 컨테이너 내부 분석 영역 스타일 */
+.main__body .left .flex-box .analyze {
+  width: 45%; /* 너비 45%로 설정 */
+  display: flex;
+  flex-direction: column; /* 세로로 요소 정렬 */
+  align-items: center; /* 가로 중앙 정렬 */
+}
+
+/* 분석 영역 내 텍스트 스타일 */
+.main__body .left .flex-box .analyze p {
+  font-size: 1.5rem; /* 글꼴 크기 1.5rem */
+}
+
+/* 분석 영역 내 폼 스타일 */
+.main__body .left .flex-box .analyze form {
+  width: 100%; /* 너비 100%로 설정 */
+}
+
+/* 분석 영역 내 입력 상자 스타일 */
+.main__body .left .flex-box .analyze .input-box {
+  width: 70%; /* 너비 70%로 설정 */
+  margin: 1rem auto; /* 위아래 여백 1rem, 가운데 정렬 */
+  display: flex;
+  justify-content: space-between; /* 가로 간격을 최대로 설정 */
+}
+
+/* 분석 영역 내 위치 정보 스타일 */
+.main__body .left .flex-box .location {
+  width: 45%; /* 너비 45%로 설정 */
+}
+
+/* 이동 버튼 스타일 */
+.main__body .left .move-btn {
+  height: 10%; /* 높이 10%로 설정 */
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능하게 함 */
+}
+
+/* 오른쪽 컨테이너 스타일 */
+.main__body .right {
+  width: 30%; /* 너비 30%로 설정 */
+  height: 70vh; /* 높이 70vh로 설정 (화면 높이의 70%) */
+  display: flex;
+  flex-direction: column; /* 세로로 요소 정렬 */
+  justify-content: space-between; /* 세로 간격을 최대로 설정 */
+}
+
+/* 오른쪽 컨테이너 내 실시간 스트리밍 영상 스타일 */
+.main__body .right .live {
+  height: 45%; /* 높이 45%로 설정 */
+  display: flex;
+  flex-direction: column; /* 세로로 요소 정렬 */
+  align-items: center; /* 가로 중앙 정렬 */
+}
+
+/* 실시간 스트리밍 영상 내 텍스트 스타일 */
+.main__body .right .live p {
+  font-size: 1.5rem; /* 글꼴 크기 1.5rem */
+}
+
+/* 실시간 스트리밍 영상 내 코멘트 스타일 */
+.main__body .right .live .comment {
+  width: 70%; /* 너비 70%로 설정 */
+  display: flex;
+  justify-content: space-between; /* 가로 간격을 최대로 설정 */
+  cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능하게 함 */
+  padding: 0.5rem 1rem; /* 패딩 설정 */
+}
+
+/* 코멘트 호버 스타일 */
+.main__body .right .live .comment:hover {
+  border: 1px solid #bebebe; /* 호버 시 테두리 추가 */
+  border-radius: 10px; /* 테두리를 둥글게 설정 */
+}

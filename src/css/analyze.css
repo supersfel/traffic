@@ -1,0 +1,61 @@
+/* 분석 헤더 스타일 */
+.analyze__header {
+  width: 100%; /* 너비 100%로 설정 */
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  margin-top: 1rem; /* 위쪽 여백 1rem */
+}
+
+/* 헤더 이미지 스타일 */
+.analyze__header img {
+  width: 300px; /* 이미지 너비 300px로 설정 */
+  cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능하게 함 */
+}
+
+/* 분석 타이틀 영역 스타일 */
+.analyze__title-area {
+  display: flex;
+  justify-content: space-between; /* 가로 간격을 최대로 설정 */
+  width: 58%; /* 너비 58%로 설정 */
+  margin-left: 5%; /* 왼쪽 여백 5% */
+  margin-top: 2rem; /* 위쪽 여백 2rem */
+  margin-bottom: 1rem; /* 아래쪽 여백 1rem */
+  font-size: 1.5rem; /* 글꼴 크기 1.5rem */
+}
+
+/* 분석 본문 스타일 */
+.anlyze__body {
+  width: 90%; /* 너비 90%로 설정 */
+  height: 70vh; /* 높이 70vh로 설정 (화면 높이의 70%) */
+  margin: 0 auto; /* 가운데 정렬 */
+  display: flex;
+  justify-content: space-between; /* 가로 간격을 최대로 설정 */
+}
+
+/* 비디오 영역 스타일 */
+.anlyze__body .video-area {
+  width: 65%; /* 너비 65%로 설정 */
+  height: 100%; /* 높이 100%로 설정 (부모 컨테이너에 맞춤) */
+}
+
+/* 분석 컨텐츠 영역 스타일 */
+.anlyze__body .analyze-content-area {
+  width: 30%; /* 너비 30%로 설정 */
+  height: 100%; /* 높이 100%로 설정 (부모 컨테이너에 맞춤) */
+}
+
+/* 분석 컨텐츠 영역 내부 스타일 */
+.analyze-content-area {
+  display: flex;
+  flex-direction: column; /* 세로로 요소 정렬 */
+  align-items: center; /* 가로 중앙 정렬 */
+  padding-top: 2rem; /* 위쪽 패딩 2rem */
+}
+
+/* 분석 컨텐츠 박스 스타일 */
+.analyze-content-area .content-box {
+  width: 70%; /* 너비 70%로 설정 */
+  display: flex;
+  justify-content: space-between; /* 가로 간격을 최대로 설정 */
+}
