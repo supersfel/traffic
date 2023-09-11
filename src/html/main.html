@@ -17,14 +17,25 @@
     <section class="main__body">
       <div class="left">
         <div class="flex-box">
-          <div class="analyze type shadow-box">
+          <div class="analyze type shadow-box" onclick="clickTypeDropDown()">
             <p>종류별 영상분석</p>
             <form action=""></form>
           </div>
-          <div class="analyze location shadow-box">
+          <div
+            class="analyze location shadow-box"
+            onclick="clickLocationDropDown()"
+          >
             <p>지역별 영상분석</p>
             <form action=""></form>
           </div>
+          <iframe
+            class="video-area shadow-box"
+            src="https://www.youtube.com/embed/-JhoMGoAfFc"
+            title="실시간 서울 한강 라이브캠 Seoul Hangang 4K Live Cam Korea Webcam w/Lofi 韓国ライブカメラ, 반포대교 노을멍, 로파이 플레이리스트 BGM"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
         <div class="move-btn shadow-box" onclick="moveAnalyzePage()">
           이동!!
